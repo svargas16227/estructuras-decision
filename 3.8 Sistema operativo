@@ -1,0 +1,17 @@
+Algoritmo sistemaOperativo
+	Definir opcion Como Caracter
+	
+    Escribir "Ingrese un carácter:"
+    Leer opcion
+    
+    Si (opcion = "a" O opcion = "A") Entonces
+		escribir "Android"
+		
+	Sino
+		Si (opcion = "i" O opcion = "I") Entonces
+            Escribir "iOS"
+        Sino
+            Escribir "Opción invalida"
+        FinSi
+    FinSi
+FinAlgoritmo
