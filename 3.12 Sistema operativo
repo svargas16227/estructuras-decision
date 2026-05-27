@@ -1,0 +1,19 @@
+Algoritmo sistemaOperativo
+	Definir opcion Como Caracter
+	
+	Escribir "Ingrese un carácter:"
+	Leer opcion
+	
+	Segun opcion Hacer
+		
+		"a", "A":
+			Escribir "Android"
+			
+		"i", "I":
+			Escribir "iOS"
+			
+		De Otro Modo:
+			Escribir "Opción inválida"
+			
+	FinSegun
+FinAlgoritmo
